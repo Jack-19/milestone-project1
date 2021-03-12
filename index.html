@@ -3,24 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+
     <title>Lions Gym</title>
 </head>
 <body>
     <header>
-        <div>
-            <img class="logo" src="assets/images/lionlogo.jpg" alt="Lion gym Logo">
-            <h1 class="title">Lions Gym</h1>
-            <button>Join Now!</button>
+        <div class=" row container-fluid no-gutters">
+            <div class="col-3">
+                <img class="logo" src="assets/images/lionlogo.jpg">
+            </div>
+
+            <div class="col-3">
+                <h1 class="title">Lions Gym</h1>
+            </div>
+            <div class="col-6">
+                <button class="button">Join Now!</button>
+            </div>
+            
         </div>
-        <div>
-            <ul class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Cardio</a></li>
-                <li><a href="#">Weight Lifting</a></li>
-                <li><a href="#">Join</a></li>
-            </ul>
-        </div>
+        
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Welcome</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="#">Home</a>
+        <a class="nav-link" href="#">Cardio</a>
+        <a class="nav-link" href="#">Weight Lifting</a>
+        <a class="nav-link" href="#">Join</a>
+        
+      </div>
+    </div>
+  </div>
+</nav>
+        
+         <div class="container-fluid">
+  <div class="row no-gutters">
+    <div class="col-sm">
+      <img class="weightpic" src="assets/images/weightpicture.jpg">
+    </div>
+    <div class="col-sm">
+      <img class="womanweight" src="assets/images/woman lifting with barbell.jpg">
+    </div>
+    <div class="col-sm">
+      <img class="runningpic" src="assets/images/runningone.jpg">
+    </div>
+  </div>
+</div>
+
+        
 
     </header>
     <section>
