@@ -1,58 +1,139 @@
 
+body{
+    background-color:#D5D9E9;
+}
+p{
+    font-family:"roboto mono", sans-serif;
+}
+ul li{
+    font-family:"roboto mono", sans-serif;
+}
 
 /*------------------------------------header*/
 .logo{
-    height:200px;
     width:200px;
     float:left;
-
+    margin-left:0;
+    height: 100%;
 }
 .button{
     padding-top:0;
     margin-left:180px;
-    margin-top:90px;
+    margin-top:100px;
+    background-color: #566FD0;
+    font-weight:800;
     
-
-}
-.title{
-    padding-top:50px;
-}
-
-
-
-
-
+    }
 .title{
     padding-top: 80px;
     padding-bottom:40px;
     padding-right: 0;
     padding-left:0;
+    color:black;
+    font-family:"Bebas Neue", sans-serif;
+    font-size:90px;
+    letter-spacing: 2px;
     
 }
 #navbarNavAltMarkup a{
-    color:red;
-    text-align: center;
+    color:#393E52;
+    padding-right:150px;
+    font-size: 20px;
 }
-
-    
-
-
-/*-----------------------------------picturesmain*/
-.weightpic{
-    height:80%;
-    width:100%;
-    padding:0;
+.navbar{
+    background-color: #566FD0;
+}
+body{
+    box-sizing: none;
     margin:0;
+    padding:0;
 }
-.womanweight{
-    height:80%;
+.welcome{
+    color:#393E52;
+    margin-left:20px;
+    font-size:25px;
+}
+/*-----------------------------------picturesmain*/
+
+.manpicture{
+    height:100%;
     width:100%;
     padding:0;
     margin:0;
 }
 .runningpic{
-    height:80%;
+    height:100%;
     width:100%;
     padding:0;
     margin:0;
+    }
+.ropepicture{
+    height:100%;
+    width:100%;
+    padding:0;
+    margin:0;
+
 }
+.one{
+    height:300px;
+}
+.two{
+    height:300px;
+}
+.three{
+    height:300px;
+}
+
+/*-----------------------------------threeparts*/
+.three-parts{
+    padding-top:0;
+    padding-bottom:200px;
+}
+section{
+    height:500px;
+}
+.reasons li{
+    list-style-type:square;
+}
+
+/*-----------------------------------social*/
+.social-links{
+    background-color:#3599AD;
+    margin:0;
+    padding-top:-10px;
+    padding-bottom:10px;
+    }
+.social-links h5{
+    margin-left:80px;
+}
+.social-links li{
+    list-style-type: none;
+    display:inline-block;
+    margin-left:250px;
+    margin-bottom:0;
+}
+.social-links a{
+    color:black;
+    padding-right:20px;
+}
+/*-----------------------------------footer*/
+footer{
+     position: bottom;
+     width: 100%;
+     bottom: 0;
+     }
+     
+.copyright li{
+    list-style-type: none;
+    display:inline-block;
+    margin-left:250px;
+    margin-bottom:0;
+    padding-top:20px;
+
+
+}
+
+
+    
+    
+
