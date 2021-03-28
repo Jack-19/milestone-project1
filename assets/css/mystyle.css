@@ -91,7 +91,6 @@ body{
 .three-col{
 padding-top:15px;
 font-family:"rubik",sans-serif;
-font-weight:350;
 }
 .list-reasons{
 	list-style-type:square;
@@ -256,7 +255,5 @@ div.threadmill-image{
 	div.weight-block-mobile{
 		display:block;
 	}
-	div.p.span.bold{
-		font-style:bold;
-	}
+	
 }
