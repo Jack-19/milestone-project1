@@ -1,0 +1,185 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="jquery/jquery.js"></script>
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" type="text/css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+	<link rel="stylesheet" href="assets/css/mystyle.css" type="text/css">
+	
+</head>
+
+<title>
+join form
+</title>
+<body>
+<div class="container-fluid">
+
+  <div class="row no-gutters top-section">
+    <div class="col-sm header-section">
+      <img class="img-fluid lion-logo" src="https://i.pinimg.com/originals/51/5f/02/515f027d93aa26bf1289fdacef9b2296.jpg" alt="Lion Logo">
+    </div>
+    <div class="col-sm header-section">
+      <h1 class="title">The Lions Gym</h1>
+    </div>
+    <div class="col-sm header-section displayno">
+      <button type="button" class="btn btn-danger btn-lg join-button" type="submit">Join Us!</button>
+    </div>
+  </div>
+</div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-custom">
+  <a class="navbar-brand welcome">Welcome</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto page-links-top">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home  <i class="fa fa-home" aria-hidden="true"></i><span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="cardiopage.html">Cardio  <i class="fa fa-heart" aria-hidden="true"></i></a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="weightpage.html">Weight Lifting  <i class="fa fa-heartbeat" aria-hidden="true"></i></a>
+      </li>
+	  <li class="nav-item active">
+        <a class="nav-link" href="joinform.html"><strong class="join">Join Us!</strong></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle nav-top" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Navigation
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="index.html">Home</a>
+          <a class="dropdown-item" href="cardio page.html">Cardio</a>
+		  <a class="dropdown-item" href="weight page.html">Weight Lifting</a>
+		  <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="join form.html" button type="button" class="btn btn-danger btn-lg" type="submit">Join Us!</button></a>
+        </div>
+      </ul>
+    
+  </div>
+</nav>
+
+<div class="container">
+  <div class="row">
+    <div class="col-4">
+      <h4 class="jointitle">Join Us Now</h4>
+    </div>
+    <div class="col-8">
+      <p class="joinpara">Simply fill out the below form and submit. A member of our friendly team will be in touch shorty to go over a few things and set up a payment plan.</p>
+    </div>
+  </div>
+  <form method="post">
+  <div class="row">
+   
+    <div class="col-sm about">
+      <h5>About You</h5>
+	  <label class="formlabel" for="fname">First Name</label>
+	  <br>
+	   <input id="fname" type="text">
+	   <br>
+	   <label class="formlabel" for="lname">Last Name</label>
+	   <br>
+	   <input id="lname" type="text">
+	   <br>
+	   <label class="formlabel" for="age">Age</label>
+	   <br>
+	   <input id="age" type="number">
+	   <br>
+	   <label class="formlabel" for="email">Email Address</label>
+	   <br>
+	   <input id="email" type="email">
+	   <br>
+	   <label class="formlabel" for="contactno">Contact Number</label>
+	   <br>
+	   <input id="contactno" type="number">
+	   
+	   
+    </div>
+    <div class="col-sm address">
+      <h5>Address</h5>
+	  <label class="formlabel" for="address1">Door Number</label>
+	  <br>
+	   <input class="formlabel" id="address1" type="number">
+	   <br>
+	   <label class="formlabel" for="address2">Road / House Name</label>
+	   <br>
+	   <input class="formlabel" id="address2" type="text">
+	   <br>
+	   <label class="formlabel" for="address3">Postcode</label>
+	   <br>
+	   <input id="address3" type="text">
+    </div>
+    <div class="col-sm interest">
+	 <h5>Main Interest</h5>
+	  <label class="formlabel" for="weights">Weight Lifting</label>
+	  <input type="radio" id="weights" name="interest">
+	  <br>
+	  <label class="formlabel" for="cardio">Cardio</label>
+	  <input type="radio" id="cardio" name="interest">
+	  <br>
+	  <label class="formlabel" for="weightl">Weight Lose</label>
+	  <input type="radio" id="weightl" name="interest">
+	  <br>
+	  <label class="formlabel" for="all">All</label>
+	  <input type="radio" id="all" name="interest">
+	  <br>
+	  <label class="formlabel" for="terms">Accept Terms & Conditions</label>
+	  <input id="terms" type="checkbox" name="accept_terms" value="yes">
+	  <br>
+      <input type="submit" class="joinpagebutton" value="Join Us!">
+	  <br>
+	  <p class="text1">Thank you and we will look forward to seeing you!</p>
+    </div>
+	 
+  </div>
+</div>
+</form>
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light nav-bar-bottom">
+  <a class="navbar-brand social-link-title">Lets Get Following</a>
+  <a class="navbar-brand social-link" href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-f"></i></a>
+  <a class="navbar-brand social-link" href="https://twitter.com/?lang=en-gb" target="_blank"><i class="fa fa-twitter"></i></a>
+  <a class="navbar-brand social-link" href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
+  <a class="navbar-brand social-link" href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube"></i></a>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto bottom-nav-links">
+      <li class="nav-item">
+        <a class="nav-link" href="projecttest.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link footer-nav-link" href="cardio page.html">Cardio</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link footer-nav-link" href="weight page.html">Weight Lifting</a>
+      </li>
+	  <li class="nav-item active">
+        <a class="nav-link footer-nav-link" href="join form.html" button type="button" class="btn btn-danger btn-lg" type="submit"><strong class="join">Join Us!</strong></button></a> 
+      </li>
+	  </ul>
+    </div>
+	</div>
+</nav>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

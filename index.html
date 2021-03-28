@@ -3,108 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-
-    <title>Lions Gym</title>
+	<script src="jquery/jquery.js"></script>
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" type="text/css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+	<link rel="stylesheet" href="assets/css/mystyle.css" type="text/css">
+	
 </head>
-<body>
-    <header>
-        <div class=" row container-fluid no-gutters">
-            <div class="col-3">
-                <img class="logo" src="assets/images/lionlogo.jpg">
-            </div>
 
-            <div class="col-3">
-                <h1 class="title">Lions Gym</h1>
-            </div>
-            <div class="col-6">
-                <button class="button">Join Now!</button>
-            </div>
-            
-        </div>
-        
-        <nav class="navbar navbar-expand-lg">
-  <div class="container-fluid">
-    <a class="navbar-brand welcome">Welcome</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav ml-auto">
-        <a class="nav-link active" aria-current="page" href="#">Home <i class="fa fa-home"></i></a>
-        <a class="nav-link" href="#">Cardio <i class="fa fa-heart"></i></a>
-        <a class="nav-link" href="#">Weight-Lifting <i class="fa fa-heartbeat"></i></a>
-        <a class="nav-link" href="#">Join <i class="fa fa-edit"></i></a>
-        
-      </div>
+<title>
+The Lions Gym
+</title>
+<body>
+<div class="container-fluid">
+
+  <div class="row no-gutters top-section">
+    <div class="col-sm header-section">
+      <img class="img-fluid lion-logo" src="https://i.pinimg.com/originals/51/5f/02/515f027d93aa26bf1289fdacef9b2296.jpg" alt="Lion Logo">
     </div>
-  </div>
-</nav>
-        
-         <div class="container-fluid">
-  <div class="row no-gutters">
-    <div class="col-sm one">
-        <img class="ropepicture" src="assets/images/ropepicture.jpg">
-      
+    <div class="col-sm header-section">
+      <h1 class="title">The Lions Gym</h1>
     </div>
-    <div class="col-sm two">
-      <img class="manpicture" src="assets/images/manpicture.jpg">
-    </div>
-    <div class="col-sm three">
-      <img class="runningpic" src="assets/images/runningone.jpg">
+    <div class="col-sm header-section displayno">
+      <button type="button" class="btn btn-danger btn-lg join-button" type="submit">Join Us!</button>
     </div>
   </div>
 </div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-custom">
+  <a class="navbar-brand welcome">Welcome</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-        
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto page-links-top">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home  <i class="fa fa-home" aria-hidden="true"></i><span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="cardiopage.html">Cardio  <i class="fa fa-heart" aria-hidden="true"></i></a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="weightpage.html">Weight Lifting  <i class="fa fa-heartbeat" aria-hidden="true"></i></a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="joinform.html"><strong class="join">Join Us!</strong></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle nav-top" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Navigation
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="index.html">Home</a>
+          <a class="dropdown-item" href="cardio page.html">Cardio</a>
+		  <a class="dropdown-item" href="weight page.html">Weight Lifting</a>
+		  <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="join form.html" button type="button" class="btn btn-danger btn-lg" type="submit">Join Us!</button></a>
+        </div>
+      </ul>
+    
+  </div>
+</nav>
+<section>
+<div class="row no-gutters image-section">
+    <div class="col-sm">
+      <img class="image-1 img-fluid" src="https://media.istockphoto.com/photos/survival-of-the-fittest-picture-id537018675?k=6&m=537018675&s=612x612&w=0&h=mmKMxnFBSt4mdalrohSfmk6eCnM93DZqAOM1Qu7vTDI=" alt="image of person working out">
+    </div>
+    <div class="col-sm image-2">
+      <img class="image-2 img-fluid" src="https://tptspersonaltraining.co.uk/wp-content/uploads/2018/04/barbell-black-and-white-black-and-white-791763.jpg" alt="gym weights">
+    </div>
+    <div class="col-sm image-3">
+      <img class="image-3 img-fluid" src="https://media.istockphoto.com/photos/back-of-muscular-woman-picture-id629828104?k=6&m=629828104&s=612x612&w=0&h=VqAT01FZcbEJzbULwVwwxu-ID0CoUnBRP79XFqNiY2c=" alt="person weight lifting">
+    </div>
+  </div>
+</div>
+</section
 
-    </header>
-    <section>
-        <div class=" row container-fluid no-gutters three-parts">
-            <div class="col-4">
-                <ul class="reasons">
-                    <br>
-                    <h3>Reasosn To Join</h3>
-                    <br>
-                    <li>Workout at a time to suit you</li>
-                    <li>Low cost plans avalible</li>
-                    <li>Refer a friend discount shceme</li>
-                    <li>24/7 opening</li>
-                    <li>On site cafe / dinning</li>
-                    <li>Onsite training</li>
-                    <li>Professional advice</li>
-                    <li>Most importantly <strong>GET FIT!</strong></li>
-                </ul>
+<section-2>
+<div class="container-fluid three-col-main">
 
-            </div>
-            <div class="col-4">
-                <br>
-                <h3>Members Comments</h3>
-                <br>
-                <p><strong>Carl</strong>, 36, London<br>
+  <div class="row no-gutters">
+    <div class="col-sm">
+      <h4 class="three-col about h5">Reasons To Join:</h4>
+	  <ul class="list-reasons">
+	   <li class="text1">Workout at a time to suit you</li>
+       <li class="text1">Low cost plans avalible</li>
+       <li class="text1">Refer a friend discount shceme</li>
+       <li class="text1">24/7 opening</li>
+       <li class="text1">On site cafe / dinning</li>
+       <li class="text1">Onsite training</li>
+       <li class="text1">Professional advice</li>
+       <li class="text1">Most importantly <strong>GET FIT!</strong></li>
+    </div>
+    <div class="col-sm">
+      <h4 class="three-col about h5">Members Reviews:</h4>
+	   <p class="text1"><strong>Carl</strong>, 36, London<br>
                 Ive been a member for 6 months,<br> and I cant get enough</p>
                 <br>
-                <p><strong>Charlie</strong>, 40, Surrey<br>
+                <p class="text1"><strong>Charlie</strong>, 40, Surrey<br>
                 I enjoy the community enviroment and<br> friendly staff</p>
                 <br>
-                <p><strong>Keith</strong>, 18, East london<br>
+                <p class="text1"><strong>Keith</strong>, 18, East london<br>
                 24/7 opening times really help around<br> college and studies </p>
-                <br>
-                <p><strong>Chantell</strong>, 23, Croydon<br>
-                Me and the girls love the sauna</p>
-                <br>
                 
-                </div>
-            <div class="col-4">
-                <br>
-                <h3>Owners Words</h3>
-                <br>
-                <p>I fulfilled my dream three years ago when I finnaly became the owner of my own gym.<br>
+    </div>
+    <div class="col-sm">
+      <h4 class="three-col about h5">Owners Words:</h4>
+	   <p class="text1">I fulfilled my dream three years ago when I finnaly became the owner of my own gym.<br>
                    It was a day I will never forget!<br>
                    <br>
                     Ive worked relentlessly to create an enviroment that everyone can enjoy and of course <strong>work out!</strong>
@@ -112,35 +119,37 @@
                     <br>
                     Melissa, Owner.
                 </p>
-                
-            </div>
-        </div>
-
-
-    </section>
-    <div>
-        <ul class="social-links">
-                <h5>Lets Get Social</h5>
-                <li><i class="fa fa-facebook-f"></i> <a href="https://en-gb.facebook.com/">Facebook</a></li>
-                <li><i class="fa fa-twitter"></i> <a href="https://twitter.com/?lang=en-gb">Twitter</a></li>
-                <li><i class="fa fa-instagram"></i> <a href="https://www.instagram.com/">Instagram</a></li>
-                
-            </ul>
-
     </div>
-    <footer>
-        <div>
-            <ul class="copyright">
-                <li><h6>Copyright<i class="fa fa-copyright"></i></h6></li>
-                <li>Lions Gym</li>
-                <li>Jack Smith</li>
-            </ul>
-            
-        </div>
+  </div>
+</div>
+</section-2>
+<nav class="navbar navbar-expand-lg navbar-light bg-light nav-bar-bottom">
+  <a class="navbar-brand social-link-title">Lets Get Following</a>
+  <a class="navbar-brand social-link" href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-f"></i></a>
+  <a class="navbar-brand social-link" href="https://twitter.com/?lang=en-gb" target="_blank"><i class="fa fa-twitter"></i></a>
+  <a class="navbar-brand social-link" href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
+  <a class="navbar-brand social-link" href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube"></i></a>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto bottom-nav-links">
+      <li class="nav-item active">
+        <a class="nav-link" href="projecttest.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link footer-nav-link" href="cardio page.html">Cardio</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link footer-nav-link" href="weight page.html">Weight Lifting</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link footer-nav-link" href="join form.html" button type="button" class="btn btn-danger btn-lg" type="submit"><strong class="join">Join Us!</strong></button></a> 
+      </li>
+	  </ul>
+    </div>
+	</div>
+</nav>
 
-        
-
-    </footer>
-    
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,0 +1,262 @@
+body{
+	background-image: linear-gradient(white, grey);
+}
+.header-section{
+	max-height:200px;
+}
+
+
+
+
+
+
+
+.title{
+	text-align:center;
+	padding-top:40px;
+	font-family:"rubik:wght@900", sans-serif;
+	font-size:4vw;
+	font-weight:900;
+	letter-spacing:0.1em;
+}
+.join-button{
+	margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-family:"rubik:wght@900", sans-serif;
+}
+.lion-logo{
+	border-radius: 50%;
+	max-height:100%;
+	padding-top:40px;
+	padding-left:80px;
+	padding-bottom:10px;
+}
+
+
+
+
+.navbar-custom{
+	background-color:#BFBBBB!important;
+}
+.welcome{
+	padding-left:25px;
+	font-weight:500;
+	font-family:"rubik", sans-serif;
+}
+.page-links-top{
+	padding-left:350px;
+	font-family:"rubik", sans-serif;
+}
+.nav-top{
+	padding-left:900px;
+}
+.join{
+	color:red;
+}
+
+
+.row-weight-lifting{
+  display: flex;
+}
+
+.column-weight{
+  flex: 33.33%;
+  padding: 5px;
+}
+.weightpageimg{
+	border-radius: 50%;
+	height:8rem;
+	width:1.5rem;
+}
+	
+
+
+
+
+.image-1{
+	border-radius: 50%;
+}
+.image-2{
+	border-radius: 50%;
+}
+.image-3{
+	border-radius: 50%;
+}
+	
+	
+.three-col{
+padding-top:15px;
+font-family:"rubik",sans-serif;
+font-weight:350;
+}
+.list-reasons{
+	list-style-type:square;
+	
+}
+.three-col-main{
+	font-family:sans-serif;
+}
+
+.bottom-nav-links{
+	font-family:"rubik", sans-serif;
+	padding-left:200px;
+
+}
+.nav-bar-bottom{
+	background-color:#BFBBBB!important;
+}
+
+
+.equipment{
+	text-align:center;
+}
+
+
+.cardioimg{
+	border-radius: 50%;
+}
+.cardio-title1{
+	padding-top:10px;
+	font-size:2rem;
+}
+	
+
+.row-images {
+  display: flex;
+}
+.img-head{
+	text-align:center;
+}
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+.pool{
+	height:20rem;
+	width:60rem;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 50%;
+}
+
+.pool-spec{
+	padding-left:15px;
+	list-style-type:none;
+}
+
+.cardio-head{
+	text-align:center;
+}
+.ex-list{
+	list-style-type:none;
+}
+
+	
+
+
+
+
+
+.bench{
+	height:200px;
+	width:200px;
+}
+.weights-pic{
+	height:200px;
+	width:180px;
+}
+.pull-up{
+	height:200px;
+	width:200px;
+}
+.weight-a{
+	text-align:center;
+}
+
+
+
+
+.about{
+	padding-bottom:20px;
+	
+}
+
+
+.jointitle{
+	padding-top:20px;
+	font-family:"rubik", sans-serif;
+}
+.joinpara{
+	padding-top:20px;
+	text-align:center;
+	font-family:"rubik", sans-serif;
+}
+
+
+
+.about h5{
+	font-family:"rubik", sans-serif;
+}
+.address h5{
+	font-family:"rubik", sans-serif;
+}
+.interest h5{
+	font-family:"rubik", sans-serif;
+}
+	
+	
+
+	
+.title1{
+	font-family:"rubik", sans-serif;
+}
+
+.joinpagebutton{
+	background-color:red;
+	color:white;
+}
+
+.formlabel{
+	font-family:"Comic Sans MS", Times, serif;
+}
+
+.text1{
+	font-family:"Comic Sans MS", Times, serif;
+}
+
+.weight-nav-bar{
+	z-index:1;
+	width:100%;
+}
+
+@media only screen and (max-width: 600px) {
+  div.displayno{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px){
+	div.bike-image{
+		width:0;
+		height:0;
+	}
+}
+@media only screen and (max-width: 600px){
+div.threadmill-image{
+	float:none;
+}
+}
+@media only screen and (max-width:600px){
+	div.weight-block-mobile{
+		display:block;
+	}
+	div.p.span.bold{
+		font-style:bold;
+	}
+}
