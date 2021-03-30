@@ -13,10 +13,9 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
 	<link rel="stylesheet" href="assets/css/mystyle.css" type="text/css">
 	<title>
-join form
+Join us!
 </title>
 </head>
-
 
 <body>
 <div class="container-fluid">
@@ -29,7 +28,7 @@ join form
       <h1 class="title">The Lions Gym</h1>
     </div>
     <div class="col-sm header-section displayno">
-      <button type="button" class="btn btn-danger btn-lg join-button" type="submit">Join Us!</button>
+      <button class="btn btn-danger btn-lg join-button" type="submit">Join Us!</button>
     </div>
   </div>
 </div>
@@ -42,13 +41,13 @@ join form
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto page-links-top">
       <li class="nav-item">
-        <a class="nav-link" href="index.html">Home  <i class="fa fa-home" aria-hidden="true"></i><span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="projecttest.html">Home  <i class="fa fa-home"></i><span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="cardiopage.html">Cardio  <i class="fa fa-heart" aria-hidden="true"></i></a>
+        <a class="nav-link" href="cardiopage.html">Cardio  <i class="fa fa-heart"></i></a>
       </li>
 	  <li class="nav-item">
-        <a class="nav-link" href="weightpage.html">Weight Lifting  <i class="fa fa-heartbeat" aria-hidden="true"></i></a>
+        <a class="nav-link" href="weightpage.html">Weight Lifting  <i class="fa fa-heartbeat"></i></a>
       </li>
 	  <li class="nav-item active">
         <a class="nav-link" href="joinform.html"><strong class="join">Join Us!</strong></a>
@@ -59,10 +58,10 @@ join form
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="index.html">Home</a>
-          <a class="dropdown-item" href="cardio page.html">Cardio</a>
-		  <a class="dropdown-item" href="weight page.html">Weight Lifting</a>
+          <a class="dropdown-item" href="cardiopage.html">Cardio</a>
+		  <a class="dropdown-item" href="weightpage.html">Weight Lifting</a>
 		  <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="join form.html" button type="button" class="btn btn-danger btn-lg" type="submit">Join Us!</button></a>
+          <a class="dropdown-item" href="joinform.html">Join Us!</a>
         </div>
       </ul>
     
@@ -78,71 +77,75 @@ join form
       <p class="joinpara">Simply fill out the below form and submit. A member of our friendly team will be in touch shorty to go over a few things and set up a payment plan.</p>
     </div>
   </div>
-  <form method="post">
+  <form method="post" action="https://formdump.codeinstitute.net/">
   <div class="row">
    
     <div class="col-sm about">
-      <h5>About You</h5>
+      
+	  <fieldset>
+	  <legend><h5>About You:</h5></legend>
 	  <label class="formlabel" for="fname">First Name</label>
 	  <br>
-	   <input id="fname" type="text">
+	   <input id="fname" type="text" placeholder="First Name"  required>
 	   <br>
 	   <label class="formlabel" for="lname">Last Name</label>
 	   <br>
-	   <input id="lname" type="text">
+	   <input id="lname" type="text" placeholder="Last Name"  required>
 	   <br>
 	   <label class="formlabel" for="age">Age</label>
 	   <br>
-	   <input id="age" type="number">
+	   <input id="age" type="number" placeholder="Age"  required>
 	   <br>
 	   <label class="formlabel" for="email">Email Address</label>
 	   <br>
-	   <input id="email" type="email">
+	   <input id="email" type="email" placeholder="Email"  required>
 	   <br>
 	   <label class="formlabel" for="contactno">Contact Number</label>
 	   <br>
-	   <input id="contactno" type="number">
-	   
+	   <input id="contactno" type="number" placeholder="Number"  required>
+	   </fieldset>
 	   
     </div>
     <div class="col-sm address">
-      <h5>Address</h5>
+	   <fieldset>
+	  <legend><h5>Address:</h5></legend>
 	  <label class="formlabel" for="address1">Door Number</label>
 	  <br>
-	   <input class="formlabel" id="address1" type="number">
+	   <input class="formlabel" id="address1" type="number" placeholder="Door Number"  required>
 	   <br>
 	   <label class="formlabel" for="address2">Road / House Name</label>
 	   <br>
-	   <input class="formlabel" id="address2" type="text">
+	   <input class="formlabel" id="address2" type="text" placeholder="Road/House"  required>
 	   <br>
 	   <label class="formlabel" for="address3">Postcode</label>
 	   <br>
-	   <input id="address3" type="text">
+	   <input id="address3" type="text" placeholder="Postcode"  required>
+	   </fieldset>
     </div>
     <div class="col-sm interest">
-	 <h5>Main Interest</h5>
+	 <fieldset>
+	  <legend><h5>Address:</h5></legend>
 	  <label class="formlabel" for="weights">Weight Lifting</label>
-	  <input type="radio" id="weights" name="interest">
+	  <input type="radio" id="weights" name="interest" required>
 	  <br>
 	  <label class="formlabel" for="cardio">Cardio</label>
-	  <input type="radio" id="cardio" name="interest">
+	  <input type="radio" id="cardio" name="interest" required>
 	  <br>
 	  <label class="formlabel" for="weightl">Weight Lose</label>
-	  <input type="radio" id="weightl" name="interest">
+	  <input type="radio" id="weightl" name="interest" required>
 	  <br>
 	  <label class="formlabel" for="all">All</label>
 	  <input type="radio" id="all" name="interest">
 	  <br>
 	  <label class="formlabel" for="terms">Accept Terms & Conditions</label>
-	  <input id="terms" type="checkbox" name="accept_terms" value="yes">
+	  <input id="terms" type="checkbox" name="accept_terms" value="yes" required>
 	  <br>
       <input type="submit" class="joinpagebutton" value="Join Us!">
 	  <br>
 	  <p class="text1">Thank you and we will look forward to seeing you!</p>
+	  </fieldset>
     </div>
-	 
-  </div>
-</div>
+	 </div>
 </form>
 
 
@@ -155,28 +158,29 @@ join form
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light nav-bar-bottom">
   <a class="navbar-brand social-link-title">Lets Get Following</a>
-  <a class="navbar-brand social-link" href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-f"></i></a>
-  <a class="navbar-brand social-link" href="https://twitter.com/?lang=en-gb" target="_blank"><i class="fa fa-twitter"></i></a>
-  <a class="navbar-brand social-link" href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
-  <a class="navbar-brand social-link" href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube"></i></a>
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <a class="navbar-brand social-link" href="https://www.facebook.com/"><i class="fa fa-facebook-f"></i></a>
+  <a class="navbar-brand social-link" href="https://twitter.com/?lang=en-gb"><i class="fa fa-twitter"></i></a>
+  <a class="navbar-brand social-link" href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+  <a class="navbar-brand social-link" href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a>
+  </nav>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent1">
     <ul class="navbar-nav mr-auto bottom-nav-links">
       <li class="nav-item">
-        <a class="nav-link" href="projecttest.html">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="projecttest.html">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link footer-nav-link" href="cardio page.html">Cardio</a>
+        <a class="nav-link footer-nav-link" href="cardiopage.html">Cardio</a>
       </li>
 	  <li class="nav-item">
-        <a class="nav-link footer-nav-link" href="weight page.html">Weight Lifting</a>
+        <a class="nav-link footer-nav-link" href="weightpage.html">Weight Lifting</a>
       </li>
 	  <li class="nav-item active">
-        <a class="nav-link footer-nav-link" href="join form.html" button type="button" class="btn btn-danger btn-lg" type="submit"><strong class="join">Join Us!</strong></button></a> 
+        <a class="nav-link footer-nav-link btn btn-danger btn-lg join" href="joinform.html"><strong>Join Us!<span class="sr-only">(current)</span></strong></a> 
       </li>
 	  </ul>
     </div>
 	</div>
-</nav>
+
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
